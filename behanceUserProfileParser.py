@@ -17,8 +17,8 @@ class BehanceUserProfileParser:
         self.emails = []
 
     def parse(self):
-        # div id="profile-display-name"
         profileDisplayNameRaw = self.soup.find('div', {'id': 'profile-display-name'}).find('a')
+        print "parsing ", profileDisplayNameRaw
         if profileDisplayNameRaw:
             profileDisplayName = profileDisplayNameRaw.text.strip()
         else:
@@ -84,7 +84,7 @@ class BehanceUserProfileParser:
         if resumeTag:
             resumeUrl = resumeTag['href']
             self.driver.get(resumeUrl)
-            time.sleep(3)
+            #time.sleep(3)
             html = self.driver.page_source
             self.soup = BeautifulSoup(html, 'html.parser')
             self.emails += self.fetchEmails()
