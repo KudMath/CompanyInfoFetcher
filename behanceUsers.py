@@ -28,6 +28,7 @@ class BehanceUsers:
                                                     'resumeUrl', 'emails'))
         '''
         # self.initBrowser()
+        self.startingOrdinal = 0
         self.initDriver()
         self.client = MongoClient()
         self.forceUpdate = False
@@ -64,13 +65,12 @@ class BehanceUsers:
         collection = self.client['scrapping']['behanceUsers']
         existing_object = collection.find_one({'profileDisplayName': incoming_object['profileDisplayName']})
         if(existing_object):
-            print "already in", existing_object['profileDisplayName']
+            #print "already in", existing_object['profileDisplayName']
             collection.update({"_id":existing_object['_id']}, incoming_object)
             #create replace or update
         else:
             inserted_id = collection.insert_one(incoming_object).inserted_id
-            print "new user inserted", inserted_id
-        pass
+            #print "new user inserted", inserted_id
     def fetchUsers(self, usersCount, ordinal=0):
         pageCount = usersCount / 25
         lastPageOrdinal = usersCount % 25
@@ -103,8 +103,9 @@ class BehanceUsers:
         new_ordinal = self.fetchUsers(50, ordinal=ordinal)
         self.continuousFetch(new_ordinal)
     def beginContinuousFetch(self):
-        print "continuousFetch begins"
-        self.continuousFetch(0)
+        print "continuousFetch begins now"
+        ordinal = self.startingOrdinal
+        self.continuousFetch(ordinal)
     def parsePage(self, url):
         self.driver.get(url)
         time.sleep(3)
@@ -114,8 +115,15 @@ class BehanceUsers:
         return parser.parse()
 
 print "Starting Benhance parsing", str(datetime.now())
+
 behanceUsers = BehanceUsers()
-#behanceUsers.fetchUsers(100)
+var = raw_input("Do you want to force the update of old users: y/[n] ?\n")
+if(var == "y"):
+    behanceUsers.startingOrdinal=True
+
+var2 = raw_input("Do you want to skip some users: y/[n] ?\n")
+if(var2 == "y"):
+    var3 = raw_input("How many?\n")
+    behanceUsers.startingOrdinal=int(var3)
+
 behanceUsers.beginContinuousFetch()
-# print behanceUsers.parsePage("https://www.behance.net/thomascampi")
-print "Done parsing Behance", str(datetime.now())

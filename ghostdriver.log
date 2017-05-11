@@ -1,5 +1,43 @@
-[INFO  - 2017-05-11T13:24:56.939Z] GhostDriver - Main - running on port 50813
-[INFO  - 2017-05-11T13:24:57.216Z] Session [3a0865a0-364d-11e7-ba62-cb48fbbc00db] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2017-05-11T13:24:57.216Z] Session [3a0865a0-364d-11e7-ba62-cb48fbbc00db] - page.customHeaders:  - {}
-[INFO  - 2017-05-11T13:24:57.216Z] Session [3a0865a0-364d-11e7-ba62-cb48fbbc00db] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2017-05-11T13:24:57.216Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3a0865a0-364d-11e7-ba62-cb48fbbc00db
+[INFO  - 2017-05-11T13:59:47.238Z] GhostDriver - Main - running on port 53474
+[INFO  - 2017-05-11T13:59:47.571Z] Session [17fb68e0-3652-11e7-8de8-cf37394d834d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-11T13:59:47.571Z] Session [17fb68e0-3652-11e7-8de8-cf37394d834d] - page.customHeaders:  - {}
+[INFO  - 2017-05-11T13:59:47.571Z] Session [17fb68e0-3652-11e7-8de8-cf37394d834d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-11T13:59:47.571Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 17fb68e0-3652-11e7-8de8-cf37394d834d
+[INFO  - 2017-05-11T14:04:47.232Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-11T14:09:47.222Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-11T14:14:47.437Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-11T14:19:47.428Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2017-05-11T14:22:12.127Z] Session [17fb68e0-3652-11e7-8de8-cf37394d834d] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-11T14:22:12.127Z] Session [17fb68e0-3652-11e7-8de8-cf37394d834d] - page.onError - stack:
+  (anonymous function) (https://a5.behance.net/3701d9ea6f6842884967994f82e19b2f010cb484/js/network.js?cb=264615658:27)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-11T14:22:12.128Z] Session [17fb68e0-3652-11e7-8de8-cf37394d834d] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-11T14:22:12.128Z] Session [17fb68e0-3652-11e7-8de8-cf37394d834d] - page.onError - stack:
+  (anonymous function) (https://a5.behance.net/3701d9ea6f6842884967994f82e19b2f010cb484/js/network.js?cb=264615658:27)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-11T14:22:18.377Z] Session [17fb68e0-3652-11e7-8de8-cf37394d834d] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-11T14:22:18.377Z] Session [17fb68e0-3652-11e7-8de8-cf37394d834d] - page.onError - stack:
+  (anonymous function) (https://a5.behance.net/3701d9ea6f6842884967994f82e19b2f010cb484/js/network.js?cb=264615658:27)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-11T14:22:18.377Z] Session [17fb68e0-3652-11e7-8de8-cf37394d834d] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-11T14:22:18.377Z] Session [17fb68e0-3652-11e7-8de8-cf37394d834d] - page.onError - stack:
+  (anonymous function) (https://a5.behance.net/3701d9ea6f6842884967994f82e19b2f010cb484/js/network.js?cb=264615658:27)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2017-05-11T14:24:47.802Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-11T14:29:47.807Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-11T14:34:47.799Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-11T14:39:47.875Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-11T14:44:47.872Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-11T14:49:48.126Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
