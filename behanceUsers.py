@@ -3,7 +3,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 import time
 import behanceUserProfileParser
-import pandas as pd
+#import pandas as pd
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.expected_conditions import staleness_of
@@ -114,6 +114,7 @@ class BehanceUsers:
         parser = behanceUserProfileParser.BehanceUserProfileParser(self.driver, soup)
         return parser.parse()
 
+'''
 print "Starting Benhance parsing", str(datetime.now())
 
 behanceUsers = BehanceUsers()
@@ -127,3 +128,4 @@ if(var2 == "y"):
     behanceUsers.startingOrdinal=int(var3)
 
 behanceUsers.beginContinuousFetch()
+'''

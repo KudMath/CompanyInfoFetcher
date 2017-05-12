@@ -1,5 +1,7 @@
 from eve import Eve
+from eve.auth import requires_auth
 from eve.auth import BasicAuth
+import behanceUsers
 
 class Authenticate(BasicAuth):
     def check_auth(self, username, password, allowed_roles, resource,
@@ -22,4 +24,14 @@ class Authenticate(BasicAuth):
             return True
 
 app = Eve(settings='settings.py', auth=Authenticate)
+
+@app.route('/behanceCrawl')
+@requires_auth('Authenticate')
+def startBehanceCrawling():
+    print "start Crawling"
+    crawler = behanceUsers.BehanceUsers()
+    crawler.beginContinuousFetch()
+    print "EOM"
+
+
 app.run()
