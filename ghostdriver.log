@@ -1,33 +1,5 @@
-[INFO  - 2017-05-12T08:41:39.451Z] GhostDriver - Main - running on port 58092
-[INFO  - 2017-05-12T08:41:39.704Z] Session [d123a520-36ee-11e7-af56-2169d7452710] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2017-05-12T08:41:39.704Z] Session [d123a520-36ee-11e7-af56-2169d7452710] - page.customHeaders:  - {}
-[INFO  - 2017-05-12T08:41:39.704Z] Session [d123a520-36ee-11e7-af56-2169d7452710] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2017-05-12T08:41:39.704Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d123a520-36ee-11e7-af56-2169d7452710
-[ERROR - 2017-05-12T08:42:03.630Z] Session [d123a520-36ee-11e7-af56-2169d7452710] - page.onError - msg: Unhandled promise rejection Error: failed to load: https://wwwimages2.adobe.com/assets/globalnav/v1.1.4/css/globalnav.css
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-05-12T08:42:03.630Z] Session [d123a520-36ee-11e7-af56-2169d7452710] - page.onError - stack:
-  (anonymous function) (https://a5.behance.net/7bce389bf16cfa5650ee5d3cf77005bf33f5aae6/js/network.js?cb=264615658:27)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-05-12T08:42:03.630Z] Session [d123a520-36ee-11e7-af56-2169d7452710] - page.onError - msg: Unhandled promise rejection Error: failed to load: https://wwwimages2.adobe.com/assets/globalnav/v1.1.4/css/globalnav.css
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-05-12T08:42:03.630Z] Session [d123a520-36ee-11e7-af56-2169d7452710] - page.onError - stack:
-  (anonymous function) (https://a5.behance.net/7bce389bf16cfa5650ee5d3cf77005bf33f5aae6/js/network.js?cb=264615658:27)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-05-12T08:42:12.721Z] Session [d123a520-36ee-11e7-af56-2169d7452710] - page.onError - msg: Unhandled promise rejection Error: failed to load: https://wwwimages2.adobe.com/assets/globalnav/v1.1.4/css/globalnav.css
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-05-12T08:42:12.721Z] Session [d123a520-36ee-11e7-af56-2169d7452710] - page.onError - stack:
-  (anonymous function) (https://a5.behance.net/7bce389bf16cfa5650ee5d3cf77005bf33f5aae6/js/network.js?cb=264615658:27)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-05-12T08:42:12.721Z] Session [d123a520-36ee-11e7-af56-2169d7452710] - page.onError - msg: Unhandled promise rejection Error: failed to load: https://wwwimages2.adobe.com/assets/globalnav/v1.1.4/css/globalnav.css
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-05-12T08:42:12.721Z] Session [d123a520-36ee-11e7-af56-2169d7452710] - page.onError - stack:
-  (anonymous function) (https://a5.behance.net/7bce389bf16cfa5650ee5d3cf77005bf33f5aae6/js/network.js?cb=264615658:27)
-
-  phantomjs://platform/console++.js:263 in error
+[INFO  - 2017-05-12T16:23:29.067Z] GhostDriver - Main - running on port 52155
+[INFO  - 2017-05-12T16:23:29.398Z] Session [55678e10-372f-11e7-bbf5-97a7dca944fb] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-12T16:23:29.399Z] Session [55678e10-372f-11e7-bbf5-97a7dca944fb] - page.customHeaders:  - {}
+[INFO  - 2017-05-12T16:23:29.399Z] Session [55678e10-372f-11e7-bbf5-97a7dca944fb] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-12T16:23:29.399Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 55678e10-372f-11e7-bbf5-97a7dca944fb

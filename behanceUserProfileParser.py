@@ -18,7 +18,6 @@ class BehanceUserProfileParser:
 
     def parse(self):
         profileDisplayNameRaw = self.soup.find('div', {'id': 'profile-display-name'}).find('a')
-        print "parsing ", profileDisplayNameRaw
         if profileDisplayNameRaw:
             profileDisplayName = profileDisplayNameRaw.text.strip()
         else:
@@ -102,8 +101,8 @@ class BehanceUserProfileParser:
         # print str(fields)
         # print resumeUrl
         # print str(self.emails)
-        return [profileDisplayName, profileTitle, profileCompany, profileLocation, profileWebsite, str(projectViewsCount), str(appreciationsCount),
-                str(followersCount), str(followingCount), str(fields), resumeUrl, str(self.emails)]
+        return [profileDisplayName, profileTitle, profileCompany, profileLocation, profileWebsite, projectViewsCount, appreciationsCount,
+                followersCount, followingCount, fields, resumeUrl, self.emails]
 
     def fetchEmails(self):
         result = []
