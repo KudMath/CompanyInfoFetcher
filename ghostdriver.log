@@ -3,3 +3,6 @@
 [INFO  - 2017-05-12T16:23:29.399Z] Session [55678e10-372f-11e7-bbf5-97a7dca944fb] - page.customHeaders:  - {}
 [INFO  - 2017-05-12T16:23:29.399Z] Session [55678e10-372f-11e7-bbf5-97a7dca944fb] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
 [INFO  - 2017-05-12T16:23:29.399Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 55678e10-372f-11e7-bbf5-97a7dca944fb
+[INFO  - 2017-05-12T16:28:29.058Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T16:33:29.047Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T16:38:29.037Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

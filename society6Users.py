@@ -49,6 +49,7 @@ class Society6Users:
         driver.get(self.base_url)
         for i in range(2,maxi):
             self.driver.get(self.base_url+"discover?page="+str(i))
+            
         print "Done scrolling, parsing now."
         soup = BeautifulSoup(driver.page_source, 'html.parser')
         usernames = soup.find_all('a', {'class': 'author'})

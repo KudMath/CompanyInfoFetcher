@@ -21,12 +21,6 @@ class BehanceUsers:
                         'profileLocation', 'profileWebsite', 'projectViewsCount',
                         'appreciationsCount', 'followersCount', 'followingCount', 'fields',
                         'resumeUrl', 'emails']
-        '''
-        self.behanceUsersDf = pd.DataFrame(columns=('profileDisplayName', 'profileTitle', 'profileCompany',
-                                                    'profileLocation', 'profileWebsite', 'projectViewsCount',
-                                                    'appreciationsCount', 'followersCount', 'followingCount', 'fields',
-                                                    'resumeUrl', 'emails'))
-        '''
         # self.initBrowser()
         self.startingOrdinal = 0
         self.initDriver()
@@ -113,19 +107,3 @@ class BehanceUsers:
         soup = BeautifulSoup(html, 'html.parser')
         parser = behanceUserProfileParser.BehanceUserProfileParser(self.driver, soup)
         return parser.parse()
-
-'''
-print "Starting Benhance parsing", str(datetime.now())
-
-behanceUsers = BehanceUsers()
-var = raw_input("Do you want to force the update of old users: y/[n] ?\n")
-if(var == "y"):
-    behanceUsers.startingOrdinal=True
-
-var2 = raw_input("Do you want to skip some users: y/[n] ?\n")
-if(var2 == "y"):
-    var3 = raw_input("How many?\n")
-    behanceUsers.startingOrdinal=int(var3)
-
-behanceUsers.beginContinuousFetch()
-'''

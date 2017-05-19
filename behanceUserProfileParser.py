@@ -89,18 +89,6 @@ class BehanceUserProfileParser:
             self.emails += self.fetchEmails()
         else:
             resumeUrl = None
-        # print profileDisplayName
-        # print profileTitle
-        # print profileCompany
-        # print profileLocation
-        # print profileWebsite
-        # print projectViewsCount
-        # print appreciationsCount
-        # print followersCount
-        # print followingCount
-        # print str(fields)
-        # print resumeUrl
-        # print str(self.emails)
         return [profileDisplayName, profileTitle, profileCompany, profileLocation, profileWebsite, projectViewsCount, appreciationsCount,
                 followersCount, followingCount, fields, resumeUrl, self.emails]
 
